@@ -13,8 +13,11 @@
 exec = require('child_process').exec
 
 module.exports = (robot) ->
-  robot.respond /decodeQR (https?:\/\/[^ ]+)/i, (msg) ->
+  robot.respond /decodeQR (.*)/i, (msg) ->
     url = msg.match[1]
+    url = url.replace(/</g, "")
+    url = url.replace(/>/g, "")
+
     cmd = 'zbarimg ' + url
 
     exec cmd, (error, stdout, stderr) ->

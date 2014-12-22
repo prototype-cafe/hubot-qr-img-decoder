@@ -13,4 +13,4 @@ describe 'qr-img-decoder', ->
     require('../src/qr-img-decoder')(@robot)
 
   it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/decodeQR (https?:\/\/[^ ]+)/i)
+    expect(@robot.respond).to.have.been.calledWith(/decodeQR (.*)/i)
