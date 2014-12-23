@@ -1,4 +1,4 @@
-# hubot-qr-img-decoder
+# hubot-qr-img-decoder [![Build Status][travis-image]][travis-url]
 
 A hubot script that decode a QR code image. This script requires zbarimg on your system.
 
@@ -24,3 +24,6 @@ Then add **hubot-qr-img-decoder** to your `external-scripts.json`:
 user1>> hubot qrdecode http://goo.gl/cNn3PW.qr
 hubot>> user1: http://goo.gl/cNn3PW
 ```
+
+[travis-url]: https://travis-ci.org/prototype-cafe/hubot-qr-img-decoder
+[travis-image]: https://travis-ci.org/prototype-cafe/hubot-qr-img-decoder.svg?branch=master
