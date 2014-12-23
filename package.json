@@ -17,15 +17,16 @@
     "hubot": "2.x"
   },
   "devDependencies": {
-    "hubot": "2.x",
-    "mocha": "*",
     "chai": "*",
-    "sinon-chai": "*",
-    "sinon": "*",
+    "coffee-script": "^1.8.0",
+    "grunt-contrib-watch": "~0.6.1",
     "grunt-mocha-test": "~0.12.4",
     "grunt-release": "~0.9.0",
+    "hubot": "2.x",
     "matchdep": "~0.3.0",
-    "grunt-contrib-watch": "~0.6.1"
+    "mocha": "*",
+    "sinon": "*",
+    "sinon-chai": "*"
   },
   "main": "index.coffee",
   "scripts": {
