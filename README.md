@@ -8,7 +8,7 @@ See [`src/qr-img-decoder.coffee`](src/qr-img-decoder.coffee) for full documentat
 
 In hubot project repo, run:
 
-`npm install hubot-qr-img-decoder --save`
+`npm install prototype-cafe/hubot-qr-img-decoder.git --save`
 
 Then add **hubot-qr-img-decoder** to your `external-scripts.json`:
 
@@ -21,7 +21,7 @@ Then add **hubot-qr-img-decoder** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot qrdecode http://goo.gl/cNn3PW.qr
+user1>> hubot decodeQR http://goo.gl/cNn3PW.qr
 hubot>> user1: http://goo.gl/cNn3PW
 ```
 
